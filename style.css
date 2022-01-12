@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  height: 450px;
+}
+section {
+  padding: 65px;
+}
+.employee-section {
+  width: 50%;
+  margin: 0 auto;
+}
+.search-section {
+  display: flex;
+  justify-content: center;
+}
+label {
+  font-size: 36px;
+  font-variant: small-caps;
+  padding: 0 15px;
+}
+#results .name {
+  font-size: 25px;
+  list-style: none;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 10px;
+}
+input {
+  font-size: 15px;
+  padding: 0 10px;
+}
